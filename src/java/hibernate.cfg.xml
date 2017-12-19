@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+         
+        <mapping class="model.Customer"/>
+        <mapping class="model.Product"/>
+        <mapping class="model.Order"/>
+        <mapping class="model.OrderDetails"/>
+        <mapping class="model.Category"/>
+        <mapping class="model.ContactUs"/>
+        <mapping class="model.Cart"/>
+        <mapping class="model.CartItem"/>
+        <mapping class="model.login"/>
+        <mapping class="model.Admin"/>
+        <mapping class="model.ShippingAddress"/>
+        <mapping class="model.BillingAddress"/>
+        
+        
+    </session-factory>
+</hibernate-configuration>
